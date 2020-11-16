@@ -1,0 +1,20 @@
+@mixin transform($degress) {
+	-webkit-transform: $degress;
+	-ms-transform: $degress;
+	transform: $degress;
+}
+
+p {
+	@include transform(rotate(180deg));
+}
+
+@mixin border {
+	border: 0;
+	border: none;
+	outline: 0;
+	outline: none;
+}
+
+div {
+	@include border;
+}

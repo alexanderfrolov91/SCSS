@@ -1,0 +1,45 @@
+html, body {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+nav {
+  text-transform: uppercase;
+}
+nav li {
+  text-decoration: underline;
+}
+nav li p {
+  display: flex;
+}
+
+a {
+  color: red;
+}
+
+p {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+div {
+  border: 0;
+  border: none;
+  outline: 0;
+  outline: none;
+}
+
+a {
+  cursor: pointer;
+}
+
+div {
+  width: 75%;
+}
+
+p {
+  height: 500px;
+}
+
+/*# sourceMappingURL=output.css.map */

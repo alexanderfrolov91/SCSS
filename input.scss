@@ -1,0 +1,31 @@
+$font_family: Arial;
+$font_size: 16px;
+
+html, body {
+	font-family: $font_family;
+	font-size: $font_size;
+}
+
+nav {
+	text-transform: uppercase;
+	li {
+		text-decoration: underline;
+		p {
+			display: flex;
+		}
+	}
+}
+
+@import 'part';
+
+@import 'mixin';
+
+%cursor {
+	cursor: pointer;
+}
+
+a {
+	@extend %cursor;
+}
+
+@import 'math';
